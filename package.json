@@ -1,0 +1,24 @@
+{
+  "name": "slurry",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "format": "prettier --write ./**/*.js"
+  },
+  "keywords": [
+    "curry",
+    "function"
+  ],
+  "author": "g-harel",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^22.4.2",
+    "prettier": "^1.11.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/g-harel/slurry.git"
+  }
+}
