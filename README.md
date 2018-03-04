@@ -2,9 +2,9 @@
 
 # slurry    [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
-> Automagically curry function arguments.
+> automagically curry function arguments
 
-Slurrified functions can be chain-called indefinitely. Each call curries the arguments for when the function eventually gets called (infinite `bind`).
+Slurrified functions can be chain-called indefinitely to accumulate the passed arguments.
 
 Calling with no arguments ends the chain, runs the initial function with all the arguments and returns the result.
 
@@ -17,7 +17,8 @@ $ npm install slurry
 ## Usage
 
 ```javascript
-const s = slurry((...args) => args);
+const func = (...args) => args;
+const s = slurry(func));
 
 s(0)(1)(2)();   //=> [0 1 2]
 s(0, 1, 2)();   //=> [0 1 2]
