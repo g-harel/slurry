@@ -18,7 +18,7 @@ $ npm install slurry
 
 ```javascript
 const func = (...args) => args;
-const s = slurry(func));
+const s = slurry(func);
 
 s(0)(1)(2)();   //=> [0 1 2]
 s(0, 1, 2)();   //=> [0 1 2]
