@@ -1,7 +1,7 @@
 {
   "name": "slurry",
-  "version": "1.0.1",
-  "description": "",
+  "version": "1.0.2",
+  "description": "automagically curry function arguments",
   "main": "index.js",
   "scripts": {
     "test": "jest",
